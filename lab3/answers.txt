@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Sort1 takes the least time to sort through sorted numbers.
+
+sort2 uses: Merge Sort
+
+How do you know?: The average sort time is relatively similar no matter whether its random numbers or sorted numbers. However, the time taken is not shorter than the lower bound of Bubble Sort, or longer than the upper bound of Selection Sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: Sort3 takes the longest time going through both random and sorted text files.

@@ -1,0 +1,94 @@
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.smaller {
+  width: 30%
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  text-align:center;
+}
+
+.tablecenter {
+  margin-left: auto;
+  margin-right: auto;
+  table-layout:fixed
+}
+
+.table th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #292A23;
+  color: white;
+}
+
+.table td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#challenge {
+  background-color: #e7e7e7;/* Gray */
+  border: 2px solid #555555;/* Black */
+  color: black;
+  padding: 10px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+
+#challenge:hover {
+  background-color: #008CBA;/* Blue */
+  border: 2px solid #555555;/* Black */
+  color: black;
+  padding: 10px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
